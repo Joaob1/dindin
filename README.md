@@ -3,7 +3,7 @@
 - Projeto proposto pela Cubos Academy para finalização do módulo 3 do curso de Desenvolvimento de Software Fullstack.
 - Neste projeto usamos as tecnologias: ReactJS, Javascript, CSS, ExpressJS, bCrypt, JWT, Axios e PostgreSQL.
 - O deploy foi hospedado no Vercel App.
-
+- Não foi aplicada responsividade pois não era o intuito do desafio.
 
 
 <img src="https://user-images.githubusercontent.com/99763243/178632107-0b630317-87fc-4765-a0ec-097aa85d9726.png"/>
