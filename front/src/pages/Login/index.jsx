@@ -30,6 +30,7 @@ export default function Login() {
       localStorage.setItem("userId", response.data.usuario.id);
       navigate("/main");
     } catch (error) {
+      console.log(error.response.data.mensagem);
       if (error.response.data === "Email e senha não conferem.") {
         setErrorLogin(true);
       }
