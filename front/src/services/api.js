@@ -3,7 +3,7 @@ import axios from "axios";
 import { getToken } from "../utils/token";
 
 const api = axios.create({
-    baseURL: "http://localhost:4000",
+    baseURL: "https://desafio-backend-03-dindin.herokuapp.com/",
     timeout: 10000,
 });
 
