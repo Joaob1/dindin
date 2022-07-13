@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  --cor-botoes: #7978d9;
+  --gradient-background: linear-gradient(
+    90.23deg,
+    #05ede3 0.02%,
+    #645ffb 99.63%
+  );
+  margin: 0;
+  min-height: 100vh;
+  overflow-y: auto;
+}
+.logotipo {
+  position: absolute;
+  top: 40px;
+  left: 100px;
+}

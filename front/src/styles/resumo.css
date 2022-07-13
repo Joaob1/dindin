@@ -1,0 +1,61 @@
+.resumo {
+  width: 236px;
+  height: 196px;
+
+  display: flex;
+  flex-direction: column;
+  padding: 26px 33px 32px 33px;
+
+  background: #fafafa;
+  box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  font-family: "Rubik", sans-serif;
+}
+.resumo h1 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  margin-bottom: 23px;
+}
+.resumo .entradas,
+.resumo .saidas,
+.resumo .saldo {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.resumo .entradas {
+  margin-bottom: 12px;
+}
+.resumo strong {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 15px;
+}
+.resumo .entradas strong {
+  color: #645ffb;
+}
+.resumo .saidas strong {
+  color: #fa8c10;
+}
+.resumo .saidas {
+  padding-bottom: 17px;
+  margin-bottom: 16px;
+  border-bottom: 1px solid #eaeaea;
+}
+.resumo span {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 15px;
+}
+.resumo .saldo span {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+}
+.resumo .saldo strong {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #3a9ff1;
+}

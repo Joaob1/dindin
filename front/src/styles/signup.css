@@ -1,0 +1,83 @@
+.container-cadastro {
+  height: 100vh;
+  background-image: url("../assets/background.png");
+  background-size: cover;
+  background-position: center;
+  font-family: "Rubik", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  font-family: "Rubik", sans-serif;
+}
+.card-cadastro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  width: 513px;
+  padding: 61px 32px 57px 32px;
+}
+.card-cadastro h1 {
+  color: var(--cor-botoes);
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 33px;
+}
+.card-cadastro form {
+  margin-top: 11px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.card-cadastro label {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #484848;
+  margin-bottom: 8px;
+  margin-top: 31px;
+}
+.card-cadastro input {
+  all: unset;
+  box-sizing: border-box;
+  border: 1px solid #555555;
+  border-radius: 5px;
+  width: 100%;
+  padding: 20px;
+}
+.error {
+  margin-left: 5px;
+  font-weight: 500;
+  color: red;
+}
+.card-cadastro button {
+  all: unset;
+  cursor: pointer;
+
+  width: 100%;
+  height: 53px;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: #fff;
+  background-color: var(--cor-botoes);
+
+  border-radius: 5px;
+  margin-bottom: 8px;
+  margin-top: 38px;
+}
+.card-cadastro a {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #7b61ff;
+}

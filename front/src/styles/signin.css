@@ -1,0 +1,100 @@
+.container-login {
+  height: 100vh;
+  background-image: url("../assets/background.png");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Rubik", sans-serif;
+  padding-left: 100px;
+  padding-right: 122px;
+}
+.infos {
+  display: flex;
+  flex-direction: column;
+  width: 615px;
+}
+.infos h1 {
+  display: flex;
+  align-items: baseline;
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 62px;
+  color: #ffffff;
+}
+.cor-azul {
+  color: var(--cor-botoes);
+  margin-left: 10px;
+}
+.infos p {
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 33px;
+  color: #ffffff;
+  margin-top: 33px;
+  margin-bottom: 43px;
+}
+.container-login button {
+  all: unset;
+  box-sizing: border-box;
+  cursor: pointer;
+  background: var(--cor-botoes);
+  border-radius: 5px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #ffffff;
+}
+.infos button {
+  width: 284px;
+  height: 52px;
+}
+.card-login {
+  width: 513px;
+  padding: 60px 32px 50px 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #fff;
+}
+.card-login h1 {
+  color: var(--cor-botoes);
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 33px;
+  margin-bottom: 17px;
+}
+.card-login form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.card-login label {
+  align-self: flex-start;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #484848;
+  margin-bottom: 8px;
+  margin-top: 31px;
+}
+.card-login input {
+  all: unset;
+  box-sizing: border-box;
+  border: 1px solid #555555;
+  border-radius: 5px;
+  width: 100%;
+  padding: 21px;
+}
+.card-login button {
+  width: 100%;
+  height: 52px;
+  margin-top: 73px;
+}

@@ -1,0 +1,138 @@
+.modal-background {
+  z-index: 1;
+  position: fixed;
+  min-height: 100vh;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modal {
+  width: 611px;
+  position: relative;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 62px 62px 48px 62px;
+  border-radius: 20px;
+  font-family: "Rubik";
+}
+.modal span {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 52px;
+}
+.modal .fechar {
+  cursor: pointer;
+}
+.modal h1 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 43px;
+}
+.tipos-de-registro {
+  width: 100%;
+  display: flex;
+}
+.tipos-de-registro button {
+  all: unset;
+  cursor: pointer;
+  flex-grow: 1;
+  height: 60px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+}
+.tipos-de-registro .tipo-entrada {
+  background: #3a9ff1;
+}
+.tipos-de-registro .tipo-saida {
+  background: #ff576b;
+}
+.tipos-de-registro .desselecionado {
+  background: #b9b9b9;
+}
+.modal form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-top: 38px;
+}
+.modal label {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #484848;
+  align-self: flex-start;
+  margin-bottom: 8px;
+  margin-top: 26px;
+}
+.modal input {
+  all: unset;
+  box-sizing: border-box;
+  border: 1px solid #555555;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+}
+.modal input:focus {
+  border: 2px solid #555555;
+  padding: 21px;
+}
+.modal input,
+.modal select {
+  width: 100%;
+  padding: 22px;
+  border-radius: 5px;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.confirmar {
+  all: unset;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  width: 236px;
+  height: 46px;
+  background-color: var(--cor-botoes);
+  color: #fff;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  margin-top: 48px;
+}
+.modal .error {
+  margin: 0;
+}
+.updated {
+  color: var(--cor-botoes);
+}
+.rs {
+  position: absolute;
+  z-index: 1;
+  left: 82px;
+  top: 340px;
+  width: 0px;
+}
+#valor {
+  z-index: 2;
+  padding-left: 42px;
+}

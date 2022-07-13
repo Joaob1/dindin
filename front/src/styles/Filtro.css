@@ -1,0 +1,77 @@
+.filtro {
+  display: flex;
+  justify-content: space-between;
+  width: 1016px;
+  padding-right: 630px;
+  flex-wrap: wrap;
+  font-family: "Rubik";
+  background: #fafafa;
+  box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  margin-bottom: 60px;
+}
+.filtro-categoria {
+  cursor: pointer;
+  display: flex;
+  width: 122px;
+  height: 35px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0px;
+  box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  background-color: #fafafa;
+  padding: 4px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 12px;
+  color: #000000;
+}
+.filtro-categoria:hover {
+  background-color: #c7c5ff;
+}
+.filtro-categoria img {
+  width: 10px;
+}
+.botoes-filtro {
+  display: flex;
+  margin-bottom: 20px;
+}
+.botoes-filtro button {
+  all: unset;
+  cursor: pointer;
+  margin-top: 20px;
+  box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  width: 138px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+}
+.botoes-filtro .limpar {
+  font-family: "Lato";
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  color: #000000;
+  margin-left: 50px;
+  margin-right: 10px;
+}
+.botoes-filtro .aplicar {
+  font-family: "Lato";
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  color: #ffff;
+  background-color: var(--cor-botoes);
+}
+.categoria-selecionada {
+  background-color: var(--cor-botoes);
+  color: #fff;
+}
+.categoria-selecionada img{
+  transform: rotate(45deg);
+}
