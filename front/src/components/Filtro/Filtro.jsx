@@ -50,10 +50,10 @@ export default function Filtrar({ transacoes, setTransacoes, getRegistros }) {
     const categoriasClicadas = categorias.filter((item) => {
       return item.clicado === true;
     });
-    console.log(categoriasClicadas);
     categoriasClicadas.forEach((item) => {
       transacoesOriginais.forEach((transacao) => {
         if (transacao.categoria_id === item.id) {
+          novasTransacoes.push(transacao);
         }
       });
     });
